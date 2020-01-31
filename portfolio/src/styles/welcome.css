@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Great+Vibes|Pathway+Gothic+One|Paytone+One|Spinnaker&display=swap');
+
+#welcome-page {
+  min-height: 100vh;
+  width: 100% !important;
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.welcomeHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 5vw;
+    text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: .15em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+  
+.typeWrite {
+  font-family: 'Damion', cursive;
+  border-right: .15em;
+  color:linen;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: .1em;
+  animation: 
+    typing 3.5s steps(25, end)
+}
+
+.welcome{
+  font-family: 'Spinnaker', sans-serif;
+  text-transform: uppercase;
+  color: linen;
+  font-size: 3vw;
+}
+  
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(221, 218, 6); }
+} */
+
+.top {
+    background-color: #0a024b;
+    padding: 10% 0% .5% 0%;
+    justify-content: center;
+    display: flex;
+    height: 50%;
+}
+  
+.bottom {
+    padding: 0% 25% 0% 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+  
+
+
+
+
+
+@media screen and (min-width: 1100px) {
+  .exploreButton {
+     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bottom {
+    padding: 0% 25vw 0% 7vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  #welcome-page {
+    padding: 25vh 0vw 0vh 11vw;
+    justify-content: left;
+    display: flex;
+    min-height: 75vh;
+    width: 100vw !important;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  #welcome-page {
+    padding: 25vh 5.5vw 0vh 5.5vw;
+  }
+}

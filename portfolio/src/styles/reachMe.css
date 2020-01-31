@@ -1,0 +1,82 @@
+#reach-me { 
+    position: absolute;
+    width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: 'Spinnaker', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+}
+
+#reachMe{
+  background-color: rgb(221, 218, 6);
+  opacity: 75%;
+  padding: 1em;
+  height: 50%;
+
+}
+.helloText {
+  margin-top: 20vh;
+  float: right;
+  justify-content: right;
+  
+}
+
+
+h1{
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 3.5vw;
+  font-weight: 800;
+}
+
+
+.helloText p {
+  font-size: 2vw;
+  color:white;
+  font-weight: 800;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+}
+
+.connect {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .15em;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.5vw;
+    margin-left: -75px;
+    color: white;
+}
+
+
+@media screen and (min-width: 1100px) {
+  .sayHello {
+     font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #contact-me { 
+    height: 75vh;
+  }
+  .helloText {
+    margin-top: 20vh;
+  }
+  .helloText h1 {
+    font-size: 7vw;
+  }
+  .helloText p {
+    font-size: 2vw;
+  }
+  .sayHello {
+    margin-left: -10%;
+ }
+}

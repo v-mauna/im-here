@@ -1,0 +1,105 @@
+#about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    background-color:  #0a024b;
+}
+
+.who-am-i h2 {
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 2.75vh;
+    color: black;
+}
+
+.picture {
+    margin-top: 10vh;
+    display: flex;
+    width: 35%;
+    display: block;
+
+}
+
+.picture img {
+    display: right;
+    height: 65%;
+    width: auto;
+    border: 2px solid white;
+    align-self: flex-start;
+}
+
+.introText {
+    width: 40%;
+    text-align: left;
+    line-height: 1.5em;
+    text-align: justify;
+    color: white;
+    font-size: 2.75vh;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+.bottom {
+    padding: 0% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+span{
+    font-style: italic;
+}
+
+
+
+ @media screen and (max-width: 1000px) {
+    #about {
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 15% 5%;
+        align-items: center;
+    }
+    .picture img {
+        margin: 15vh 0 5vh -19vw;
+        height: 375px;
+        width: 70vw;
+        object-fit: cover;
+    }
+    .introText {
+        width: 80%;
+        margin-bottom: 25vh;
+    }
+} 
+
+@media screen and (max-width: 800px) {
+    #about {
+        margin-top: -25%;
+    }
+    .picture img {
+        margin: -55vh 0 -35vh -19vw;
+    }
+    .introText{
+        margin-top: -17%;
+        margin-bottom: -95vh;
+    }
+}
+
+@media screen and (max-device-height: 825px) {
+    #about {
+        margin-top: -30vh;
+    }
+}
+
+@media screen and (max-device-height: 750px) {
+    #about {
+        margin-top: -23vh;
+    }
+}
+
+@media screen and (max-device-height: 670px) {
+    #about {
+        margin-top: -15vh;
+    }
+}
