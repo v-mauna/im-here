@@ -35,6 +35,7 @@ const WhoAmI = () => {
                 </div>
         <div className="bottom">
         <ul/>
+        <p color="black">Portfolio</p>
         <div>
             </div>
             </div>

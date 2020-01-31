@@ -1,4 +1,4 @@
-#about {
+#portfolio {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -6,16 +6,7 @@
     height: 100vh;
     background-color:  #0a024b;
 }
-
-.who-am-i h2 {
-    letter-spacing: .05em;
-    text-transform: uppercase;
-    font-family: 'Spinnaker', sans-serif;
-    font-size: 2.75vh;
-    color: black;
-}
-
-.picture {
+.portfolio {
     margin-top: 10vh;
     display: flex;
     width: 35%;
@@ -23,15 +14,7 @@
 
 }
 
-.picture img {
-    display: right;
-    height: 65%;
-    width: auto;
-    border: 2px solid white;
-    align-self: flex-start;
-}
-
-.introText {
+.projectTitles {
     width: 40%;
     text-align: left;
     line-height: 1.5em;
@@ -40,8 +23,37 @@
     font-size: 2.75vh;
     font-family: 'Pathway Gothic One', sans-serif;
 }
+
+h2 {
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 2.75vh;
+}
+
+.projectsList{
+  position: absolute;
+  width: 75vw;
+  height: 75vh;
+  box-sizing: border-box;
+  opacity: 0.8;
+  color: white;
+  padding: 10px;
+    
+}
+.projectsList a {
+    letter-spacing: .05em;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 4vh;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+
+
 .bottom {
-    padding: 0% 25% 25% 25%;
+    padding: 0% 25% 5% 25%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -50,8 +62,6 @@
 span{
     font-style: italic;
 }
-
-
 
  @media screen and (max-width: 1000px) {
     #about {

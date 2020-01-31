@@ -45,7 +45,17 @@ h2 {
     align-items: center;
     display: flex;
     background-color: white;
-    margin-bottom: 20vh;
+}
+
+.bottom p{
+    font-family: 'Spinnaker', sans-serif;
+    text-transform: uppercase;
+    color: rgb(221, 218, 6);
+    font-weight: 800;
+    font-size: 5vh;
+    margin-top: 12.5%
+
+
 }
 span{
     font-style: italic;

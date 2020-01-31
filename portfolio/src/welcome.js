@@ -32,17 +32,10 @@ const Welcome = () => {
                         </div>
                     </div>
                 </div>
-                <div>
                 <WhoAmI/>
-                </div>
-                <div>
                <Portfolio/>
-                </div>
-                <div>
                 <ReachMe/>
-                </div>
-            </div>
-            
+        </div>
         </div>
     );
 };
