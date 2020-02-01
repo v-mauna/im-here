@@ -4,6 +4,7 @@
     justify-content: center;
     align-content: center;
     height: 100vh;
+    
     background-color:  #0a024b;
 }
 
@@ -15,7 +16,7 @@ h2 {
 }
 
 .picture {
-    margin-top: 10vh;
+    margin-top: 40vh;
     display: flex;
     width: 35%;
     display: block;
@@ -24,6 +25,7 @@ h2 {
 
 .picture img {
     display: right;
+    margin-top: 10vh;
     height: 65%;
     width: auto;
     border: 2px solid white;
@@ -32,6 +34,7 @@ h2 {
 
 .introText {
     width: 40%;
+    margin-left: 13%;
     text-align: left;
     line-height: 1.5em;
     text-align: justify;
