@@ -1,7 +1,7 @@
 #whoAmI {
   width: 100% !important;
   overflow-x: hidden !important;
-  background: linear-gradient(360deg, var(--green) 50%, var(--darkblue) 50%);
+  background-color: var(--darkblue);
   margin-bottom: 5vh;
 }
 

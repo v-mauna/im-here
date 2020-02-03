@@ -111,46 +111,46 @@ span{
  @media screen and (max-width: 1000px) {
 
    .picture .picture2 #picture3{
-       width: 60%;
+       width: 100%;
    }
    #portfolio{
-       height:250vh;
+       height:300vh;
    }
 } 
 
 @media screen and (max-width: 800px) {
     .picture .picture2 #picture3{
-        width: 60%;
+        width: 100%;
     }
     #portfolio{
-        height:250vh;
+        height:350vh;
     }
 }
 
 @media screen and (max-device-height: 825px) {
     .picture .picture2 #picture3{
-        width: 60%;
+        width: 100%;
     }
     #portfolio{
-        height:250vh;
+        height:350vh;
     }
 }
 
 @media screen and (max-device-height: 750px) {
     .picture .picture2 #picture3{
-        width: 60%;
+        width: 100%;
     }
     #portfolio{
-       height:250vh;
+        height:350vh;
     }
 }
 
 @media screen and (max-device-height: 670px) {
     .picture .picture2 #picture3{
-        width: 60%;
+        width: 100%;
     }
     #portfolio{
-        height:250vh !important;
+        height:350vh;
     }
     #portfolio p{
         font-size: 2vh;
