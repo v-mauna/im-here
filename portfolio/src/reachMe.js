@@ -9,7 +9,7 @@ const Contact = () => {
                 <h2>Collaborate?</h2>
                 <p>Let's connect.</p> 
                     <br/>
-                <a href="mailto:vmauna@aol.com, subject:Hi" className="emailLink">Say Hello</a>
+                <a href="mailto:vmauna@aol.com" className="emailLink">And Talk</a>
 
                 
             </div>
