@@ -10,15 +10,15 @@ const Navbar = () => {
 
             <div className="navBar" id = "myHeader">
                 <div id="leftName">
-                    <Link to="/#home">
+                    <Link to="/portfolio/#home">
                     Vanessa Mauna
                     </Link>
                 </div>
                 <div className="topNav">
-                    <NavLink id='link' offset={-70} duration={500} spy={true} to="/#home">Home</NavLink> •&nbsp;
-                    <NavLink id='link' smooth={true} to='/#whoAmI' activeClassName="max-screen">Who Am I?</NavLink> •&nbsp;
-                    <NavLink id='link' smooth={true} to="/#portfolio" activeClassName="max-screen">Portfolio</NavLink> •&nbsp;
-                    <NavLink id='link' smooth={true} to="/#reachMe" activeClassName="max-screen">Reach Out</NavLink> •&nbsp;
+                    <NavLink id='link' offset={-70} duration={500} spy={true} to="/portfolio/#home">Home</NavLink> •&nbsp;
+                    <NavLink id='link' smooth={true} to='/portfolio/#whoAmI' activeClassName="max-screen">Who Am I?</NavLink> •&nbsp;
+                    <NavLink id='link' smooth={true} to="/portfolio/#portfolio" activeClassName="max-screen">Portfolio</NavLink> •&nbsp;
+                    <NavLink id='link' smooth={true} to="/portfolio/#reachMe" activeClassName="max-screen">Reach Out</NavLink> •&nbsp;
                     
                     
                     
@@ -28,9 +28,9 @@ const Navbar = () => {
                 <div className = "dropNav">
                     <i className="fa fa-align-justify" id="dropbtn"></i>
                     <div className="dropdown-content">
-                        <NavLink smooth to="/#portfolio" activeClassName="min-screen" className="min-screen">Portfolio</NavLink> 
-                        <NavLink smooth to="/#reachMe" activeClassName="min-screen" className="min-screen">Contact</NavLink> 
-                        <NavLink smooth to="/#whoAmI" activeClassName="min-screen" className="min-screen">About</NavLink>
+                        <NavLink smooth to="/portfolio/#portfolio" activeClassName="min-screen" className="min-screen">Portfolio</NavLink> 
+                        <NavLink smooth to="/portfolio/#reachMe" activeClassName="min-screen" className="min-screen">Contact</NavLink> 
+                        <NavLink smooth to="/portfolio/#whoAmI" activeClassName="min-screen" className="min-screen">About</NavLink>
                     </div>
                 </div>
 
