@@ -10,7 +10,6 @@ const Contact = () => {
                 <p>Let's connect.</p> 
                     <br/>
                 <a href="mailto:vmauna@aol.com" className="emailLink">And Talk</a>
-
                 
             </div>
         </div>
