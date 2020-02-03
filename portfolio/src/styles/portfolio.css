@@ -3,7 +3,7 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    height: 300vh;
+    height: 250vh;
     background-color:  #0a024b;
 }
 .portfolio {
@@ -66,8 +66,9 @@ h2 {
 .projectOne{
     width: 75%;
 }
+
 #projectOneImg{
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: row-reverse;
     align-self: right;
@@ -79,7 +80,15 @@ h2 {
 .picture2 {
     margin-top: 0vh;
     display: flex;
-    width: 50%;
+    width: 30%;
+    display: block;
+    float: right;
+
+}
+#picture3 {
+    margin-top: 0vh;
+    display: flex;
+    width: 30%;
     display: block;
     float: right;
 
@@ -94,57 +103,56 @@ h2 {
     display: flex;
     background-color: white;
 }
+
 span{
     font-style: italic;
 }
 
  @media screen and (max-width: 1000px) {
-    #about {
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin: 15% 5%;
-        align-items: center;
-    }
-    .picture img {
-        margin: 15vh 0 5vh -19vw;
-        height: 375px;
-        width: 70vw;
-        object-fit: cover;
-    }
-    .introText {
-        width: 80%;
-        margin-bottom: 25vh;
-    }
+
+   .picture .picture2 #picture3{
+       width: 60%;
+   }
+   #portfolio{
+       height:250vh;
+   }
 } 
 
 @media screen and (max-width: 800px) {
-    #about {
-        margin-top: -25%;
+    .picture .picture2 #picture3{
+        width: 60%;
     }
-    .picture img {
-        margin: -55vh 0 -35vh -19vw;
-    }
-    .introText{
-        margin-top: -17%;
-        margin-bottom: -95vh;
+    #portfolio{
+        height:250vh;
     }
 }
 
 @media screen and (max-device-height: 825px) {
-    #about {
-        margin-top: -30vh;
+    .picture .picture2 #picture3{
+        width: 60%;
+    }
+    #portfolio{
+        height:250vh;
     }
 }
 
 @media screen and (max-device-height: 750px) {
-    #about {
-        margin-top: -23vh;
+    .picture .picture2 #picture3{
+        width: 60%;
+    }
+    #portfolio{
+       height:250vh;
     }
 }
 
 @media screen and (max-device-height: 670px) {
-    #about {
-        margin-top: -15vh;
+    .picture .picture2 #picture3{
+        width: 60%;
+    }
+    #portfolio{
+        height:250vh !important;
+    }
+    #portfolio p{
+        font-size: 2vh;
     }
 }

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Portfolio from './portfolio';
+import ReachMe from './reachMe';
 import './styles/welcome.css'
-import ReachMe from './reachMe'
-import WhoAmI from './whoAmI'
-import Portfolio from './portfolio'
+import WhoAmI from './whoAmI';
 
 const greeting = () => {
     let today = new Date()
@@ -15,29 +15,32 @@ const greeting = () => {
     return 'hi and good evening.'
     }
 
+
 const Welcome = () => {
     return (
         <div>
-            <div id = "welcome-page">
+            <div id = "home">
                 <div id = "welcome-page-container">
                     <div className="welcomeHeader">
-                        <div className = "top" id='welcome'>
+                        <div className = "top">
                             <ul>
                             <div className ="typeWrite">{greeting()}</div>
-                            <p className ='welcome'>welcome. </p>
+                            <p className='welcome'> Welcome</p>
                             </ul>
                         </div>
                         <div className = "bottom">
-                            <ul/>
+                            <ul>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <WhoAmI/>
-               <Portfolio/>
-                <ReachMe/>
-        </div>
+            </div>
+            <WhoAmI/>
+            <Portfolio />
+            <ReachMe/>
         </div>
     );
 };
 
 export default Welcome;
+

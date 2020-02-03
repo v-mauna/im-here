@@ -22,6 +22,10 @@
     text-decoration: none;
 }
 
+NavLink:hover {
+    color: white;
+}
+
 #leftName {
     color: rgb(221, 218, 6);
     text-transform: uppercase;
@@ -59,7 +63,8 @@
 
 #dropbtn {
     background-color: transparent;
-    font-size: 25px;
+    font-size: 20px;
+    color:var(--green);
 }
 
 .dropdown-content {
@@ -94,6 +99,9 @@
     }
     
     .topNav {
+        display: none;
+    }
+    #leftName{
         display: none;
     }
   }

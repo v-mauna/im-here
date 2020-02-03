@@ -2,7 +2,7 @@ import React from 'react'
 import './styles/portfolio.css'
 
 const WR = () => (
-<div className='projectsList'>
+<div className='workoutsRemixed'>
                     <a href="http://s-t-y-p.herokuapp.com"> Workouts Remixed</a>
                     <p>
                     An e-commerce site designed to give users access to a variety of cereals and introduce them to some new ones along the way.
