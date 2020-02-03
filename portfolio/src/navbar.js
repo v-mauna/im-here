@@ -10,9 +10,7 @@ const Navbar = () => {
 
             <div className="navBar" id = "myHeader">
                 <div id="leftName">
-                    <Link to="/portfolio/#home">
                     Vanessa Mauna
-                    </Link>
                 </div>
                 <div className="topNav">
                     <NavLink id='link' offset={-70} duration={500} spy={true} to="/portfolio/#home">Home</NavLink> •&nbsp;
