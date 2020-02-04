@@ -2,8 +2,10 @@
   width: 100% !important;
   overflow-x: hidden !important;
   background-color: var(--darkblue);
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
+  
 }
+
 
 #whoAmI h2 {
   font-family: 'Spinnaker', sans-serif;
@@ -30,6 +32,7 @@
   float: right;
   width: 20%;
   padding-right: 10%;
+  margin-bottom: 10%;
 }
 
 @media screen and (max-width: 800px) {

@@ -4,6 +4,7 @@ import stypSC from './images/stypSC-macbook.png';
 import wrSC from './images/wrSC-iPhone.png';
 import mcSC from './images/MC-Login-SC.png'
 
+
 const Portfolio = () => {
 	return (
 		<div>

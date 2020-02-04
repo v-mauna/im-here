@@ -1,5 +1,5 @@
 #reachMe { 
-  background: linear-gradient(45deg,white 50%,var(--darkblue));
+  background: linear-gradient(45deg,white, var(--green),rgba(255, 96, 4, 0.979));
   position: absolute;
   width: 100% !important;
   overflow-x: hidden !important;
@@ -7,6 +7,20 @@
   margin-top: 10vh;
   display: flex;
   justify-content: center;
+  animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .text {
@@ -31,10 +45,14 @@ font-family: 'Pathway Gothic One', sans-serif;
   text-transform: capitalize;
   letter-spacing: .15em;
   font-weight: bold;
-  padding: 2vw;
+  padding: 1vw;
  align-content:center;
  color: black;
- font-size: 6vh;
+ font-size: 4vh;
+}
+#emailLink:hover {
+  color: red;
+  border: 2px solid red;
 }
 
 
