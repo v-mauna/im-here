@@ -17,6 +17,8 @@ const Portfolio = () => {
 						<img id="picture3" alt='Screenshot Three' src={mcSC} />
 						</a>
 						<div id='mc'>
+							<h2>What have I been working on?</h2>
+							<div id="whiteLine"/>
                             <a href="https://github.com/v-mauna/Mindcraft"> Mindcraft</a>
 							<p>
 								Mindcraft is a mindfulness and skill-learning app focused on mental health for people in

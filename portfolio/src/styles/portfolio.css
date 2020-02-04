@@ -44,6 +44,16 @@ h2 {
   padding: 10px;
     
 }
+
+.projectsList h2{
+    font-size: 3vh;
+}
+
+#whiteLine{
+    width:10%;
+    border: 2px solid white;
+    margin-bottom: 3vh;;
+}
 .projectsList a {
     letter-spacing: .05em;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -55,6 +65,8 @@ h2 {
 .projectsList a:hover{
     color: red;
 }
+
+
 .picture {
     margin-top: 0vh;
     display: flex;
