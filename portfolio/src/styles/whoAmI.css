@@ -1,8 +1,9 @@
 #whoAmI {
   width: 100% !important;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
   background-color: var(--darkblue);
   margin-bottom: 10vh;
+  padding-bottom: 4vh;
   
 }
 
@@ -16,6 +17,7 @@
   align-self: left;
   align-items: left;
   justify-content: left;
+  padding-top: 4vh;
 }
 
 #whoAmI p {

@@ -56,7 +56,7 @@ NavLink:hover {
 
 .dropNav {
     float: right;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: none;
     margin-right: 2vw;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/reachMe.css'
 const Contact = () => {
     return (
-        <div id = "reachMe">
+        <div id = "reachMe" data-aos="fade-right">
 
             <div className='text'>
                 <h2>Want to reach out?</h2>

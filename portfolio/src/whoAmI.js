@@ -5,7 +5,7 @@ import myPhoto from './images/IMG_2589.jpeg';
 const WhoAmI = () => {
   return (
     <div>
-      <div id="whoAmI">
+      <div id="whoAmI" data-aos="fade-right">
         <h2>Pleasure to meet you.</h2>
         <p />
         <img src={myPhoto} alt="Personal" />

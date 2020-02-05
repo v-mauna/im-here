@@ -10,7 +10,7 @@ const Portfolio = () => {
 		<div>
 			<div id="portfolio">
 				<div className="portfolio" />
-				<div className="projectTitles">
+				<div className="projectTitles" data-aos="fade-left">
 					<div className="projectsList">
 					<br />
 					<a href="https://github.com/v-mauna/Mindcraft">
